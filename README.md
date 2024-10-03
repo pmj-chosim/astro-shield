@@ -12,26 +12,26 @@ SPDX-License-Identifier: CC-BY-4.0
 [![Socket Badge](https://socket.dev/api/badge/npm/package/@kindspells/astro-shield)](https://socket.dev/npm/package/@kindspells/astro-shield)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8733/badge)](https://www.bestpractices.dev/projects/8733)
 
-## Introduction
+## 소개
 
-Astro-Shield helps you to enhance the security of your Astro site.
+Astro-Shield는 Astro 사이트의 보안을 강화하는 도구입니다.  
 
-## How to install
+## 설치 방법
 
 ```bash
-# With NPM
+# NPM으로 설치
 npm install --save-dev @kindspells/astro-shield
 
-# With Yarn
+# Yarn으로 설치
 yarn add --dev @kindspells/astro-shield
 
-# With PNPM
+# PNPM으로 설치
 pnpm add --save-dev @kindspells/astro-shield
 ```
 
-## How to use
+## 사용 방법
 
-In your `astro.config.mjs` file:
+`astro.config.mjs` 파일에서:
 
 ```javascript
 import { defineConfig } from 'astro/config'
@@ -44,21 +44,21 @@ export default defineConfig({
 })
 ```
 
-## Learn more
+## 자세히 알아보기
 
-- [Astro-Shield Documentation](https://astro-shield.kindspells.dev)
+- [Astro-Shield 문서](https://astro-shield.kindspells.dev)
 
-## Other Relevant Guidelines
+## 기타 관련 지침
 
-- [Code of Conduct](https://github.com/KindSpells/astro-shield?tab=coc-ov-file)
-- [Contributing Guidelines](https://github.com/KindSpells/astro-shield/blob/main/CONTRIBUTING.md)
-- [Security Policy](https://github.com/KindSpells/astro-shield/security/policy)
+- [행동 강령](https://github.com/KindSpells/astro-shield?tab=coc-ov-file)
+- [기여 지침](https://github.com/KindSpells/astro-shield/blob/main/CONTRIBUTING.md)
+- [보안 정책](https://github.com/KindSpells/astro-shield/security/policy)
 
-## Main Contributors
+## 주요 기여자
 
-This library has been created and is being maintained by
+이 라이브러리는 다음 기여 단체에 의해 만들어졌으며, 해당 단체가 유지 관리하고 있습니다.
 [KindSpells Labs](https://kindspells.dev/?utm_source=github&utm_medium=astro_sri_scp&utm_campaign=floss).
 
-## License
+## 라이선스
 
-This library is released under [MIT License](https://github.com/KindSpells/astro-shield?tab=MIT-1-ov-file).
+이 라이브러리는 [MIT License](https://github.com/KindSpells/astro-shield?tab=MIT-1-ov-file)를 따릅니다.
